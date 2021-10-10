@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()   // TODO - update due to deprecation
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'com.google.guava:guava:31.0.1-jre'
+    implementation 'net.andreinc.mockneat:mockneat:0.4.2'
+}
