@@ -1,3 +1,5 @@
+package structures
+
 import java.util.*
 import kotlin.math.ln
 
